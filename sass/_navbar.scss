@@ -1,0 +1,62 @@
+.navbar{
+    position: relative;
+    &__menu{
+        position: absolute;
+        top: 50px;
+        left: 0;
+        z-index: 1;
+    }
+    &__menu__right{
+        position:absolute;
+        top: 50px;
+        right: 0;
+        z-index: 1;
+    }
+}
+.img{
+    overflow-y: auto;
+}
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background: none;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #D4D7D8;
+    border-radius: 25px;
+}
+.mission{
+    height: 100vh;
+    padding-top: 167px;
+}
+.nos{
+    width: 371px;
+}
+.dans{
+    width: 405px;
+}
+.end__btn{
+    height: 300px;
+}
+.btns{
+  padding-top: 220px;
+}
+.sante{
+    height: 450px;
+    padding-top: 105px;
+    &__text{
+        font-size: 121px;
+    }
+
+}
+.sante__img{
+    height: 100px;
+}
+.end__img img{
+    height: 37px;
+    width: 37px;
+}
+.est{
+    padding-left: 200px;
+}
